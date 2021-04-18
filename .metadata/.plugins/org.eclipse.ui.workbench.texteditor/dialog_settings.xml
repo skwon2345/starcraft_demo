@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="AudioInputStream" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="AudioInputStream"/>
+			<item value="UI_H"/>
+			<item value="map01HPlusUI"/>
+			<item value="url"/>
+			<item value="clicked"/>
+			<item value="clicked = "/>
+			<item value="hero01.clicked = "/>
+			<item value="e.getX"/>
+			<item value="e.get"/>
+			<item value="e.getY()"/>
+			<item value="e.getX()"/>
+			<item value="repaint"/>
+			<item value="myP"/>
+			<item value="ratio]"/>
+			<item value="ratio"/>
+		</list>
+		<list key="replacehistory">
+			<item value="mouseY"/>
+			<item value="mouseX"/>
+			<item value="Starcraft.map01HPlusUI"/>
+			<item value="VertexXOnMap()"/>
+			<item value="VertexYOnMap()"/>
+			<item value="ENEMY_"/>
+			<item value="BULLET_"/>
+			<item value="BULLET_SPRITE"/>
+			<item value="anims.curSprite.curImage"/>
+			<item value="Vector&lt;Collider&gt; colls"/>
+			<item value="Vector&lt;Chunk&gt; chunks"/>
+			<item value="Vector&lt;Chunk&gt; = MapMask.createBgColliders(testMask01)"/>
+			<item value="MapMask.createBgColliders(testMask01)"/>
+			<item value="MapMask."/>
+			<item value="MapMask.chunkColl"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="290" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="409" key="DIALOG_HEIGHT"/>
+		<item value="674" key="DIALOG_X_ORIGIN"/>
+		<item value="311" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

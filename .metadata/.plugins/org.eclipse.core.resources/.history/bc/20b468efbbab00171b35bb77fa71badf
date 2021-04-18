@@ -1,0 +1,66 @@
+package starcraft;
+
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
+public class Unit {
+    public BufferedImage image;
+    
+    public double x;
+    public double y;
+    
+    public int xDir;
+    public int yDir;
+
+    public double xSpeed;
+    public double ySpeed;
+    
+    public boolean died;
+    
+    public Unit() {
+        this(null, 0.0, 0.0, 0, 0, 0.0, 0.0, false);
+    }
+    
+    public Unit(String imageFilename, double x, double y, int xDir, int yDir, double xSpeed, double ySpeed, boolean died) {
+        init(imageFilename, x, y, xDir, yDir, xSpeed, ySpeed, died);
+    }
+    
+    public void init(String imageFilename, double x, double y, int xDir, int yDir, double xSpeed, double ySpeed, boolean died) {
+        if (imageFilename != null) {
+            try {
+                image = ImageIO.read(new File(imageFilename));
+            } catch (IOException e) {
+                System.out.println("Unit::Unit(): error - image file not found: " + imageFilename);
+                System.exit(1);
+            }
+        }
+        
+        this.x = x;
+        this.y = y;
+        this.xDir = xDir;
+        this.yDir = yDir;
+        this.xSpeed = xSpeed;
+        this.ySpeed = ySpeed;
+        this.died = died;
+    }
+    
+    public void paint(Graphics g) {
+        if (died) {
+            return;
+        }
+
+        g.drawImage(image, (int)x, (int)y, null);
+    }
+    
+    public void update() {
+        if (died) {
+            return;
+        }
+
+    }
+}

@@ -1,0 +1,25 @@
+StarCraft 2 Zerg sound scheme
+
+Asterisk - Drone what
+Critical Battery Alarm - "We must place that on creep." - Queen
+Critical Stop - Drone error
+Default Beep - Zergling death
+Device Connect - "Assimilation complete." - NP Marine
+Device Disconnect - "Service complete." - NP Marine
+Device Failed to Connect - Infestor attack
+Exclamation - Ultralisk what
+Exit Windows - "For the swarm!" - NP Marine
+Low Battery Alarm - “Not enough energy.” - Queen
+Print Complete - "Evolution complete." - Queen
+Program Error - "Nuclear launch detected." - Queen
+Windows Logoff - "Metamorphosis complete." - Queen
+Windows Logon - Nydus Worm
+Windows User Account Control - Brood Lord attack
+Empty Recycle Bin - Baneling acid kill (so satisfying!)
+Start Navigation - UI Button
+
+Extras!
+Minimize - Burrow
+Restore Up - Unburrow
+
+Note: You can use any sound to replace these with. The ones listed here are just my general preference. Feel free to switch them around. :)

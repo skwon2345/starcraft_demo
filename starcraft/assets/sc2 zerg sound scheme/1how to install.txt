@@ -1,0 +1,16 @@
+Easy to install!
+-------------------------------------
+Instructions to open the sound menu:
+-------------------------------------
+Windows 7
+After you've extracted the files, right click desktop, and then click Personalize, then click Sounds.
+
+Windows Vista
+After you've extracted the files, click Control Panel > Hardware and Sound > (then under sound category) click Change System Sounds. After that you can change it the same way you can in Windows 7.
+--------------------------------------------------
+General instructions when the sound menu is open:
+--------------------------------------------------
+Click on the sound you want to change, then click browse, and find the file you want to replace it with. Repeat this for all the other sounds you want to replace.
+When you're done replacing all the sound files, make sure you click Save As, and then name it w/e you want so you can keep the whole Sound Scheme without replacing the files one by one all over again.
+
+Enjoy! You now have the sound scheme! :D

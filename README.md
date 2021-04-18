@@ -7,7 +7,11 @@ It is GUI 2d game using Starcraft sprites, and animations added.
 * Collision Detection (Box Collider, Circle Collider)
 * Mini Map added
 * Attack functions and Health Bar added
-# Animation added
+* Animation added
+
+## Language and Database Used
+* Java
+* mySQL 
 
 ## Contributors
 
